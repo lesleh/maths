@@ -3,5 +3,16 @@
   "description": "Library for experimenting with Github package registry",
   "version": "0.1.0",
   "main": "dist/index.js",
-  "license": "MIT"
+  "module": "dist/index.mjs",
+  "browser": "dist/index.browser.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.17.1",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.5"
+  }
 }
