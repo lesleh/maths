@@ -1,0 +1,7 @@
+{
+  "name": "@lesleh/maths",
+  "description": "Library for experimenting with Github package registry",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT"
+}
